@@ -1,0 +1,19 @@
+language: php
+
+php:
+    - '7.1'
+    - '7.2.18'
+
+install:
+    - composer install
+
+before_script: php -m
+
+script: composer test
+
+notifications:
+    email:
+        recipients:
+            - dev@logics.com.br
+        on_success: never
+        on_failure: always

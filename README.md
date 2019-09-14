@@ -237,3 +237,7 @@ Para mais informações sobre a integração com a API da Braspag, vide o manual
 
 ##
 Inspired by [Cielo SDK](https://github.com/DeveloperCielo/API-3.0-PHP).
+
+##
+
+Créditos [logics](https://github.com/logics/braspag-php-sdk)
